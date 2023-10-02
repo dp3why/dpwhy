@@ -17,7 +17,7 @@ function HeroText() {
         transition={{ delay: animationStart + 1, duration: 0.5 }}
         className="flex flex-col font-bold mb-30px pt-100px"
       >
-        <span className="mt-9 mb-0 text-4xl text-orange-600 text-center items-center gap-10px">
+        <span className="mt-9 mb-0 text-4xl text-cyan-600 text-center items-center gap-10px">
           Revolutionize Business
         </span>
         <span className="text-lg uppercase   text-gray-500 ">
