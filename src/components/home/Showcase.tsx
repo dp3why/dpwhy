@@ -34,7 +34,6 @@ const Showcase = () => {
           key={index}
           title={item.title}
           description={item.description}
-          link={item.link}
         />
       ))}
     </div>

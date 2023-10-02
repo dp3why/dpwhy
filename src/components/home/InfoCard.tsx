@@ -1,7 +1,14 @@
-const InfoCard = ({ title, description, link }) => {
+import React from "react";
+
+interface InfoCardProps {
+  title: string;
+  description: string;
+}
+
+const InfoCard: React.FC<InfoCardProps> = ({ title, description }) => {
   return (
     <div className=" text-center p-6 ">
-      <a href={link}>
+      <a href="#">
         <h5 className="my-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           {title}
         </h5>
