@@ -5,7 +5,7 @@ import Showcase from "./Showcase";
 
 function Home() {
   const datenow = new Date(Date.now());
-  const year: String = datenow.getFullYear();
+  const year = datenow.getFullYear();
   return (
     <>
       <HeroText />
