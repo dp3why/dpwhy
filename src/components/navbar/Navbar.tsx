@@ -24,7 +24,7 @@ function Navbar() {
       >
         <motion.div variants={reveal}>
           <div className="flex flex-row font-semibold text-gray-800">
-            <img src="src/assets/g.png" width={90} />
+            <img src="media/g.png" width={90} />
             DPWhy
           </div>
         </motion.div>
